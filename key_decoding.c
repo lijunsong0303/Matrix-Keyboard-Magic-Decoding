@@ -15,7 +15,7 @@ unsigned char Key4x4SignedRead(void){
 	keypush |= keymapone[(((~(P1))&0xF0) >> 4)];
 	
 	if(keypush & 0xC0)return 0; // Returns 0 if more than one is pressed at the same time.
-	else return (keypush + 1); // Returns 1 through 16.
+	else return (keypush + 1); // If the button is pressed Returns 1 through 16. else renturn 0
 }
 
 /* // Recognize that both buttons are pressed at the same time. Use as required.
