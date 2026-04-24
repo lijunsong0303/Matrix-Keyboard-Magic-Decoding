@@ -1,3 +1,11 @@
+/*
+ * Copyright (C) 2019 LiJunsong
+ *
+ * This library is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public License
+ * as published by the Free Software Foundation, version 3.
+ */
+
 #include "reg51.h "// AT89S51 MCU
 
 unsigned char keymapone[16] = {0xFF,0x00,0x01,0xFF,0x02,0xFF,0xFF,0xFF,0x03,0xFF,
