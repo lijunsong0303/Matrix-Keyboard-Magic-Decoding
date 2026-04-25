@@ -9,6 +9,9 @@ For other MCU ports to be set to open-drain outputs, the pins should have pull-u
 This project is licensed under the GNU LGPL v3 License.
 
 
+
+
+
 ## Advantages of the Single-Key Lookup-Based Keypad Decoder
 
 ### Constant-Time Execution (O(1))
