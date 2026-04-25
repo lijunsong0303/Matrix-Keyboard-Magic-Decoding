@@ -30,4 +30,5 @@ Only valid single-key presses produce a defined output (1–16). Any multi-key p
 The design inherently filters out simultaneous key presses using bit pattern validation, avoiding the need for explicit multi-key detection code.
 
 ### Direct Mapping to Sequential Output
-Each key is mapped directly to a continuous numeric range (1–16), simplifying downstream processing and application logic.  If no buttons are pressed, or if multiple buttons are pressed simultaneously, the value returns 0.
+Each key is mapped directly to a continuous numeric range (1–16), simplifying downstream processing and application logic.  
+If no buttons are pressed, or if multiple buttons are pressed simultaneously, the value returns 0.
