@@ -31,3 +31,4 @@ The design inherently filters out simultaneous key presses using bit pattern val
 
 ### Direct Mapping to Sequential Output
 Each key is mapped directly to a continuous numeric range (1–16), simplifying downstream processing and application logic.
+If no buttons are pressed, or if multiple buttons are pressed simultaneously, the value returns 0.
